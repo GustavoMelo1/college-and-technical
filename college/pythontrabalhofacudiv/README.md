@@ -1,28 +1,28 @@
-# Trabalho de Algoritmos - Divisores de Numeros Inteiros
+# Algorithm Assignment - Integer Divisors Search
 
-Este projeto foi desenvolvido para a disciplina de Algoritmos e foca em logica de programacao, manipulacao de arquivos e otimizacao de busca.
+This project was developed for the Algorithms course and focuses on programming logic, file handling, and search optimization.
 
-## Objetivo
-O script recebe numeros inteiros maiores que 1 e identifica o primeiro par de divisores (a, b) tal que a * b = n. Caso o numero seja primo, o par retornado sera (1, n). Ao final da execucao, os resultados sao exportados para um arquivo .txt formatado como CSV.
+## Objective
+The script receives integers greater than 1 and identifies the first pair of divisors (a, b) such that a * b = n. If the number is prime, the returned pair will be (1, n). At the end of the execution, the results are exported to a .txt file formatted as CSV.
 
-## Estrutura do Projeto
-O repositorio contem duas versoes da mesma logica, demonstrando diferentes abordagens de performance:
+## Project Structure
+The repository contains two versions of the same logic, demonstrating different performance approaches:
 
-1. **app.py (Versao Otimizada):**
-   - Utiliza a busca de divisores ate a raiz quadrada do numero (sqrt(n)).
-   - Mais eficiente para numeros grandes, pois reduz drasticamente o numero de iteracoes necessarias.
+1. **app.py (Optimized Version):**
+   - Performs the divisor search up to the square root of the number (sqrt(n)).
+   - More efficient for large numbers as it drastically reduces the number of iterations required.
 
-2. **app2.py (Versao Didatica):**
-   - Realiza a busca ate a metade do numero (n / 2).
-   - Focado em clareza logica para fins academicos.
+2. **app2.py (Educational Version):**
+   - Performs the search up to half of the number (n / 2).
+   - Focused on logical clarity for academic purposes.
 
-## Tecnologias e Conceitos
-- Linguagem: Python 3
-- Persistencia: Manipulacao de arquivos de texto (.txt / .csv)
-- Tratamento de Erros: Blocos try/except para validar entradas do usuario.
-- Otimizacao: Uso de logica matematica para reduzir complexidade de busca.
+## Tech Stack and Concepts
+- Language: Python 3
+- Persistence: Text file manipulation (.txt / .csv)
+- Error Handling: try/except blocks to validate user input.
+- Optimization: Use of mathematical logic to reduce search complexity.
 
-## Como executar
-1. Execute o script: `python app.py`
-2. Insira os numeros desejados conforme solicitado no terminal.
-3. Digite -1 para encerrar e gerar o relatorio 'atividade-gustavomelooliveira.txt'.
+## How to run
+1. Run the script: `python app.py`
+2. Enter the desired numbers as prompted in the terminal.
+3. Type -1 to exit and generate the 'atividade-gustavomelooliveira.txt' report.
