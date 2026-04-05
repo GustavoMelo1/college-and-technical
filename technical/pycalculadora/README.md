@@ -1,24 +1,23 @@
-# Calculadora Simples em Python
+# Simple Calculator
 
-Este projeto consiste em uma calculadora basica desenvolvida para praticar conceitos fundamentais de logica de programacao e estruturas de controle em Python.
+This project is a basic calculator developed to practice fundamental programming logic and control structures in Python. It was originally created as part of a technical assessment.
 
-## Objetivo
-O script permite que o usuario realize operacoes matematicas basicas entre dois valores numericos de forma continua ate que a execucao seja interrompida manualmente.
+## Objective
+The script allows users to perform basic mathematical operations between two numerical values in a continuous loop until manually interrupted.
 
-## Operacoes Disponiveis
-O sistema oferece quatro opcoes de calculo:
-1. Soma
-2. Divisao (com verificacao para evitar divisao por zero)
-3. Multiplicacao
-4. Subtracao
+## Available Operations
+1. Addition
+2. Division (includes safety check to prevent division by zero)
+3. Multiplication
+4. Subtraction
 
-## Detalhes Tecnicos
-- Estrutura de Repeticao: Utiliza um laco `while True` para permitir multiplos calculos em uma mesma sessao.
-- Tratamento de Dados: Implementa uma verificacao de seguranca na operacao de divisao para evitar erros de execucao caso o segundo valor seja zero.
-- Interatividade: Recebe entradas do usuario via terminal para definicao dos valores e escolha da operacao.
+## Technical Details
+- Loop Structure: Uses a `while True` loop to allow multiple calculations in a single session.
+- Data Validation: Implements security checks on the division operation to avoid execution errors.
+- Interactivity: Receives user input via terminal for values and operation choice.
 
-## Como executar
-1. Execute o script: `python pycalculadora.py`
-2. Digite o primeiro e o segundo valor conforme solicitado.
-3. Escolha o numero correspondente a operacao desejada (1, 2, 3 ou 4).
-4. O resultado sera exibido diretamente no terminal.
+## How to run
+1. Run the script: `python pycalculadora.py`
+2. Enter the first and second values when prompted.
+3. Choose the number corresponding to the desired operation (1, 2, 3, or 4).
+4. The result will be displayed directly in the terminal.
