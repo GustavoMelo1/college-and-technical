@@ -34,5 +34,7 @@ r2_gb = r2_score(y_teste, pred_gb)
 y_prev = df.loc[teste, "prediction"]
 r2_prediction = r2_score(y_teste, y_prev)
 
+#results
+
 print("results column prediction:", round(r2_prediction, 3))
 print("training model results:", round(r2_gb, 3))
