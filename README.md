@@ -15,7 +15,8 @@ college-and-technical/
 │
 ├── technical/              
 │   ├── pycalculadora/ 
-│   ├── test-climactic-data/  
+│   ├── test_climactic_data/
+    ├── test_model/
 │   └── [FUTURE_TESTS]      # Reserved space for new challenges
 │
 └── README.md               # Main repository documentation
