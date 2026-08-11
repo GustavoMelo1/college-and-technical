@@ -10,13 +10,15 @@ The project is organized into two main categories: academic context and market-b
 college-and-technical/
 │
 ├── college/                
-│   ├── pythontrabalhofacudiv/  
-│   └── [FUTURE_PROJECTS]   # Reserved space for upcoming courses
+│   ├── assignment-poo-python/
+│   ├── c-assignment/
+│   ├── pythontrabalhofacudiv/
+│   └── [FUTURE_TESTS] 
 │
 ├── technical/              
 │   ├── pycalculadora/ 
 │   ├── test_climactic_data/
-    ├── test_model/
-│   └── [FUTURE_TESTS]      # Reserved space for new challenges
+│   ├── test_model/
+│   └── [FUTURE_TESTS]      
 │
-└── README.md               # Main repository documentation
+└── README.md           
